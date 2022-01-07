@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+a.nav-link {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.btn {
+  padding: 18px, 36px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border-radius: 20px;
+}
+
+.btn-primary {
+  background-color: rgba(250, 129, 81, 0.993);
+  border-color: rgba(250, 129, 81, 0.993);
+  font-weight: 600;
+}
+
+.logo {
+  width: 40%;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#hero {
+  background-image: url(../img/hero.jpeg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: relative;
+  z-index: 2;
+}
+
+.overlay::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.615);
+  z-index: -1;
+}
+
+.introduction .divider {
+  background-color: rgba(250, 129, 81, 0.993);
+  height: 2px;
+  width: 120px;
+  margin: 20px auto;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  background-color: rgba(250, 129, 81, 0.993);
+  display: flex;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 24px auto;
+  color: #fff;
+}
+
+.icon i {
+  font-size: 30px;
+}
+
+.info-card {
+  border: none;
+}
