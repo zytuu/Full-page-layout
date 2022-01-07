@@ -75,6 +75,13 @@ section {
   margin: 20px auto;
 }
 
+.introduction .divider-medium {
+  background-color: rgba(250, 129, 81, 0.993);
+  height: 2px;
+  width: 240px;
+  margin: 20px auto;
+}
+
 .icon {
   width: 80px;
   height: 80px;
@@ -93,4 +100,19 @@ section {
 
 .info-card {
   border: none;
+}
+
+.gradient {
+  background: rgb(40, 40, 40);
+  background: linear-gradient(
+    90deg,
+    rgba(40, 40, 40, 1) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(47, 47, 47, 1) 100%
+  );
+}
+
+.card-image {
+  height: 20%;
+  width: 20%;
 }
